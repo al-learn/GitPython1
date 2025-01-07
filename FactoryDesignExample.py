@@ -23,6 +23,22 @@ class Bike(Manufacturer):
           print(f"{self.bikes} costs around $80000")
       else:
           print("Try for new cars!!!")
+        
+  class Truck(Manufacturer):
+    def __init__(self):
+      print("truck manufacturers!!")
+
+    def manufacture(self):
+      print(f"manufactures robust trucks!!")
+
+
+class Boat(Manufacturer):
+  def __init__(self):
+      print("Boat manufacturers!!")
+
+    def manufacture(self):
+      print(f"manufactures luxurious yachts for holidaying!!")
+      
 
 
 def manufacture_unit(mtype):
