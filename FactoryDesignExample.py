@@ -44,7 +44,9 @@ class Boat(Manufacturer):
 def manufacture_unit(mtype):
     manufacturers={
         'car':Car,
-        'bike':Bike
+        'bike':Bike,
+        'truck':Truck,
+        'boat':Boat
 
     }
     return manufacturers[mtype]()
